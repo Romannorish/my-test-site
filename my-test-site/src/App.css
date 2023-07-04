@@ -1,0 +1,129 @@
+/* reset */
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* app-style */
+
+.App{
+  padding: 0 100px;
+}
+
+/* Header */
+
+.App-header{
+  
+  background-color: rgb(221, 180, 180);
+}
+.imgtitle{
+  padding: 10px;
+  width: 25px;
+}
+.buttons{
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 3px 5px;
+  margin: 3px 5px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+}
+
+.header-display{
+  display: flex;
+}
+
+  .header-desp-item{
+    margin-left: auto;
+    margin-right: 50px;
+  }
+.header-list{
+  display: flex;
+  
+}
+
+.header-item{
+  padding-right: 25px;
+  margin-left: 25px;
+  margin-top: 15px;
+  font-family: Cambria;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  border-right: 1px solid black;
+  
+}
+
+.header-item:hover,
+.header-item:focus{
+  color: antiquewhite;
+}
+
+
+
+
+/* main */
+
+.fotocard{
+  margin-top: 50px;
+}
+
+.main-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+  
+}
+
+.main-item{
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-basis: calc(100% / 3 - 30px);
+    position: relative;
+    cursor: pointer;
+}
+.fotomain{
+  width: 350px;
+}
+
+
+/* Footer */
+.App-footer{
+  background-color: rgb(245, 189, 189);
+}
+
+.foo-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foo-item{
+  margin-left: 50px;
+}
+
+.svg{
+  width: 50px;
+}
